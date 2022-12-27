@@ -9,7 +9,7 @@ interface PropsHead {
 export const Head = ({ money }: PropsHead) => {
     return (
         <div>
-            <h2 className="title">Mi libreta 💵</h2>
+            <h2 className="title">Mi libreta 💵 v.0.0.1</h2>
             <p className={money >= 0 ? "money moneyPosity" : "money Negative"}>
                 {new Intl.NumberFormat("co-ES", {
                     style: "currency",
