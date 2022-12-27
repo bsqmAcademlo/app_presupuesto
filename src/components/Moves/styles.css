@@ -1,0 +1,27 @@
+.moves {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    max-height: 70vh;
+
+    overflow-y: scroll;
+    padding-right: 1rem;
+}
+
+.moves::-webkit-scrollbar {
+    width: 8px; /* Tamaño del scroll en vertical */
+    height: 8px; /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.moves::-webkit-scrollbar-thumb {
+    background: #3b3b3b;
+    border-radius: 10px;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.moves::-webkit-scrollbar-track {
+    background: #242424;
+    border-radius: 10px;
+}

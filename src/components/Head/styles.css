@@ -1,0 +1,17 @@
+.title {
+    font-size: 2rem;
+}
+
+.money {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.moneyPosity {
+    color: #d4edda;
+}
+
+.moneyNegative {
+    color: #f8d7da;
+}
