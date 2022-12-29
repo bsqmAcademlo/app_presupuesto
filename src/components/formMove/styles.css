@@ -9,3 +9,35 @@
     align-self: center;
     cursor: pointer;
 }
+
+.btnNoPointer {
+    cursor: no-drop;
+}
+
+/* cambiar */
+
+.styleInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.styleInputError {
+    border: 2px solid var(--color-errors);
+}
+
+.styleInput > span {
+    color: var(--color-errors);
+}
+
+.styleSelect {
+    display: flex;
+    flex-direction: column;
+}
+
+.styleSelectError {
+    border: 2px solid var(--color-errors);
+}
+
+.styleSelect > span {
+    color: var(--color-errors);
+}

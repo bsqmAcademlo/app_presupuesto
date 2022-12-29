@@ -8,7 +8,7 @@ interface propsMove {
 }
 
 export const Move = ({
-    move: { moveName, moveType, moveValue },
+    move: { moveName, moveType, moveValue, moveDate },
 }: propsMove) => {
     return (
         <div
@@ -22,6 +22,9 @@ export const Move = ({
                     style: "currency",
                     currency: "COP",
                 }).format(Number(moveValue))}
+            </p>
+            <p className="moveDate">
+                <small>{moveDate}</small>
             </p>
         </div>
     );

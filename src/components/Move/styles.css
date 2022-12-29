@@ -1,7 +1,17 @@
 .move {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.moveDate {
+    align-self: flex-end;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 .styleEntry {

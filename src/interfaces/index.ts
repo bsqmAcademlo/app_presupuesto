@@ -3,6 +3,7 @@ export interface InterfaceMoveMovey {
     moveName: string;
     moveType: string;
     moveId: string;
+    moveDate: string;
 }
 
 export interface interfaceFormMove {

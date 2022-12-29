@@ -1,16 +1,17 @@
-:root {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
 
+:root {
     color-scheme: light dark;
     --color: rgba(255, 255, 255, 0.87);
     color: var(--color);
     background-color: #242424;
+    --color-errors: lightcoral;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 input,
@@ -20,7 +21,6 @@ button {
     border-radius: 1rem;
     outline: none;
     border: none;
-    color: var(--color);
 }
 
 input,
